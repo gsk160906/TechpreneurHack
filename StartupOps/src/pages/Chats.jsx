@@ -209,7 +209,7 @@ export default function Chats() {
                         />
                         <Button icon={Send} onClick={handleSendMessage}>Send</Button>
                     </div>
-                </div>>
+                </div>
             </div>
         </div>
     );

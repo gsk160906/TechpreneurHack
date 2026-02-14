@@ -60,8 +60,6 @@ export default function Feedback() {
                 status: 'Open',
                 startupId: userProfile.startupId,
                 authorId: userProfile.uid,
-                startupId: userProfile.startupId,
-                authorId: userProfile.uid,
                 authorName: userProfile.displayName || 'Team Member',
                 authorRole: userProfile.role || 'TEAM',
                 createdAt: serverTimestamp()
